@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#766F68 ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+    
+}
+
+.navbar__logo{
+    color: #D2872C;
+    
+
+}
+
+.navbar__itens{
+    color:#766F68 ;
+    display: flex;
+    
+}
+
+.itens{
+    margin: 15px;
+}
+
+
+.conteudoPrincipal__img{
+    width: 100%;
+    max-width: 514px;
+    justify-content: end;
+}
