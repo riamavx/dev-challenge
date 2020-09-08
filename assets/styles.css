@@ -3,10 +3,12 @@ body{
     color:#766F68 ;
 }
 
+                                                  /* DESKTOP FIRST */
 .navbar{
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+    margin: 20px;
     
     
 }
@@ -27,9 +29,26 @@ body{
     margin: 15px;
 }
 
+.conteudoPrincipal{
+    display: flex;
+    margin-top: 50px;
+}
 
-.conteudoPrincipal__img{
+
+.conteudoPrincipal__img img{
     width: 100%;
     max-width: 514px;
-    justify-content: end;
+    
+}
+
+
+.conteudoPrincipal__btn{
+    color: white;
+    background-color: #D2872C;
+    
+    font-size: 20px;
+    padding: 13px;
+    border-radius: 9px;
+    font-weight: bolder;
+    margin: 39px;
 }
