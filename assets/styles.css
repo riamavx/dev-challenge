@@ -32,12 +32,25 @@ body{
 .conteudoPrincipal{
     display: flex;
     margin-top: 50px;
+    padding: 30px;
+    justify-content: center;
+}
+
+
+
+
+.conteudoPrincipal__titulo{
+    font-size: 50px;
+}
+
+.conteudoPrincipal__texto{
+    font-size: 26px;
 }
 
 
 .conteudoPrincipal__img img{
     width: 100%;
-    max-width: 514px;
+    max-width: 600px;
     
 }
 
@@ -50,5 +63,9 @@ body{
     padding: 13px;
     border-radius: 9px;
     font-weight: bolder;
-    margin: 39px;
+    /* margin: 20px; */
+    width: 100%;
+    max-width: 200px;
+    border-color: white;
+    margin-left: 117px;
 }
